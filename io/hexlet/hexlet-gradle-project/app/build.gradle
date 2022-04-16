@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
     // This dependency is used by the application.
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'  
     implementation 'com.google.guava:guava:30.1.1-jre'
 }
 
